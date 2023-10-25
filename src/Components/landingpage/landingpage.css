@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.bg{
+    background-image: linear-gradient(to bottom, rgb(0 0 0 / 88%), rgba(0, 0, 0, 0.7)),url('https://res.cloudinary.com/dihrwghx2/image/upload/v1698161581/netflix/ixuvbjsfsg7fj6zbfqcu.jpg');
+    height: auto;
+    background-size: cover;
+}
+.inp input{
+    background-color: rgba(0, 0, 0, 0.539);
+    width: 300px;
+    height: 55px;
+    padding: 5px;
+    border: 1px solid rgb(81 74 74);
+    border-radius: 5px;
+    margin: 3%;
+    outline: none;
+    color: white;
+}

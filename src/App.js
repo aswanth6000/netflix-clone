@@ -3,7 +3,7 @@ import LandingPageWrapper from './Components/landingpage/LandingPageWrapper';
 function App() {
   return (
     <div className="App">
-      <LandingPageWrapper/>
+      <LandingPageWrapper />
     </div>
   );
 }
