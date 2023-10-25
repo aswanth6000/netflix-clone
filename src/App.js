@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import LandingPageWrapper from './Components/landingpage/LandingPageWrapper';
-import MainPageWrapper from './Components/mainpage/MainPageNav';
+import MainPageWrapper from './Components/mainpage/MainpageWrapper';
 function App() {
   return (
     <div className="App">
