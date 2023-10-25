@@ -17,7 +17,7 @@ export default function MainpageBanner() {
             </button>
           </div>
           <div>
-            <p class="text-xl md:text-2xl lg:text-5xl text-white p-3 md:p-4 lg:p-5 md:w-3/4 lg:w-96">
+            <p class="text-xl md:text-2xl lg:text-3xl text-white p-3 md:p-4 lg:p-5 md:w-3/4 lg:w-96">
               Blahj aldkjflkjdlfkj kdjflkjasd 
             </p>
           </div>

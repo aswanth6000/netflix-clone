@@ -1,6 +1,7 @@
 import React from 'react'
 import MainPageNav from './MainPageNav'
 import MainpageBanner from './MainpageBanner'
+import MainpageCarousel from './MainpageCarousel'
 import './Mainpage.css'
 
 export default function MainpageWrapper() {
@@ -8,6 +9,7 @@ export default function MainpageWrapper() {
     <div>
         <MainPageNav/>
         <MainpageBanner/> 
+        <MainpageCarousel/>
     </div>
   )
 }
