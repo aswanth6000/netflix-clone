@@ -23,7 +23,7 @@
 }
 
 
-.noti a{
+.noti {
     color: white;
     font-size: 17px;
     margin-left: 32px;
@@ -39,7 +39,7 @@
     margin-left: 678px;
 }
 
-.noti a:hover{
+.noti:hover{
     color: rgb(255, 0, 0);
    
     
