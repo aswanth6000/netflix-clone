@@ -1,5 +1,6 @@
 import React from 'react'
 import './Landingpage.css'
+import { Link } from 'react-router-dom'
 export default function LandingPageBody() {
   return (
     <div className='bg'>
@@ -15,7 +16,7 @@ export default function LandingPageBody() {
       </div>
       <div className='inp'>
         <input type="text" placeholder='Enail Address' />
-        <button style={{ backgroundColor: 'rgb(229, 9, 20)' }} class="bg-custom-red-500 text-white rounded-md px-8 py-3.5 mr-14 font-semibold">Get Started </button>
+       <Link to='/home'><button style={{ backgroundColor: 'rgb(229, 9, 20)' }} class="bg-custom-red-500 text-white rounded-md px-8 py-3.5 mr-14 font-semibold">Get Started </button> </Link> 
       </div>
       </div>
     </div>
