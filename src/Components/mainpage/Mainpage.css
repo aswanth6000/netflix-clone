@@ -33,9 +33,9 @@
 .profile img{
     height: 32px;
     width: 35px;
-
     cursor: pointer;
-    margin-left: 678px;
+    margin-right: 3%;
+    
 }
 
 .noti:hover{
