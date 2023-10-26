@@ -17,8 +17,6 @@
     transition: background-color .3s,transform 7s;
     transition-timing-function: ease-in-out;
     z-index: 100;
-   
-    
 }
 
 
@@ -40,8 +38,6 @@
 
 .noti:hover{
     color: rgb(255, 0, 0);
-   
-    
 }    
 
 .logo{
@@ -71,9 +67,12 @@
     transition-duration: .4s;
     
 }
+nav{
+  z-index: 100;  
+}
 .poster:hover{
     transform: scale(1.1);
-    z-index: 100;
+    z-index: 0;
 }
 
 

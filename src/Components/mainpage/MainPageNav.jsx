@@ -14,8 +14,8 @@ export default function MainPageNav() {
     })
   return (
     <div className='container1' style={{backgroundColor:color}}>
-  <div class="container mx-auto">
-    <nav class="flex items-center p-4 ">
+  <div class="container mx-auto z-50">
+    <nav class="flex items-center p-4 z-50">
       <div class="flex items-center justify-start p-4 ">
       <img className='logo' src='https://res.cloudinary.com/dihrwghx2/image/upload/v1698213282/netflix/d1auoakl5foipexqnytg.png' alt="" />
       </div>

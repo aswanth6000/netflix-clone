@@ -15,7 +15,7 @@ export default function LandingPageBody() {
         <div  class="text-2xl sm:text-2xl md:text-2xl lg:text-2xl sm:2xl md:2xl lg:2xl text-white">Ready to watch? Enter your email to create or restart your membership.</div>
       </div>
       <div className='inp'>
-        <input type="text" placeholder='Enail Address' />
+        <input type="text" placeholder='Email Address' className='pl-2' />
        <Link to='/home'><button style={{ backgroundColor: 'rgb(229, 9, 20)' }} class="bg-custom-red-500 text-white rounded-md px-8 py-3.5 mr-14 font-semibold">Get Started </button> </Link> 
       </div>
       </div>
