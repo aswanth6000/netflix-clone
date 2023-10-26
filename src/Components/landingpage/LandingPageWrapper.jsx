@@ -4,9 +4,9 @@ import LandingPageFooter from './LandingPageFooter'
 
 export default function LandingPageWrapper() {
   return (
-    <>
+    <div className='font-popins'>
       <LandingPageBody />
       <LandingPageFooter/>
-    </>
+    </div>
   )
 }

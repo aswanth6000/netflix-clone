@@ -8,6 +8,10 @@ module.exports = {
       backgroundColor: {
         'custom-red': 'rgb(229, 9, 20)',
       },
+      fontFamily: {
+        'popins': ['Poppins', 'sans-serif'],
+        'montserrat': ['Montserrat', 'sans-serif'],
+      },
     },
   },
   plugins: [],

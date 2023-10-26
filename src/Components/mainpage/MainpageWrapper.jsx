@@ -7,7 +7,7 @@ import MainpageFooter from './MainpageFooter'
 
 export default function MainpageWrapper() {
   return (
-    <div>
+    <div className='font-montserrat'>
         <MainPageNav/>
         <MainpageBanner/> 
         <MainpageCarousel/>
