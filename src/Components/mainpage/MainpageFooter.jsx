@@ -1,7 +1,6 @@
 import React from 'react'
-import '../mainpage/Mainpage.css'
-
-export default function LandingPageFooter() {
+import './Mainpage.css'
+export default function MainpageFooter() {
   return (
     <div className='footer'>
     <div className="list-items">

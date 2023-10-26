@@ -51,7 +51,99 @@
     margin-left: 20px;
 }         
 .bg-center{
-    background-image: linear-gradient(to bottom, rgb(0 0 0 / 88%), rgba(0, 0, 0, 0.7)),url('https://res.cloudinary.com/dihrwghx2/image/upload/v1698161581/netflix/ixuvbjsfsg7fj6zbfqcu.jpg')
+    background-image: linear-gradient(to bottom,rgb(0 0 0 / 91%), rgb(0 0 0 / 0%)),url('https://res.cloudinary.com/dihrwghx2/image/upload/v1698161581/netflix/ixuvbjsfsg7fj6zbfqcu.jpg');
 }          
        
 
+.container2{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+}
+.container2::-webkit-scrollbar{
+    display: none;
+}
+
+.poster{
+    height: 285px;
+    width: 204px;
+    margin-top: 8px;
+    margin-bottom: 53px;
+    margin-left: 40px;
+    cursor: pointer;
+    transition-duration: .4s;
+    
+}
+.poster:hover{
+    transform: scale(1.1);
+    z-index: 100;
+}
+
+
+
+.smallPoster{
+    max-height: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition-duration: .4s;
+}
+.smallPoster:hover{
+    transform: scale(1.1);
+}
+
+.footer {
+    width: 70%;
+    margin: 50px auto auto;
+    height: 240px;
+}
+
+.list-items {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+.column {
+    display: flex;
+    margin-bottom: 1.3rem;
+    flex-direction: column;
+}
+
+.column a {
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.column a:hover {
+    text-decoration: underline;
+}
+
+.footer button {
+    padding: 7px;
+    color: gray;
+    background: transparent;
+    border-color: gray;
+    border-style: solid;
+}
+
+.bottom p {
+    color: gray;
+    font-size: small;
+    margin-top: 1rem;
+}
+.bottom p a{
+    color: gray;
+    text-decoration: none;
+ }
+.bottom p a:hover{
+   text-decoration: underline;
+}
+.footer button:hover {
+    transition: background-color 1s;
+    background-color: gray;
+    color: #fff;
+}
