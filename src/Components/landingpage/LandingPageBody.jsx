@@ -16,7 +16,7 @@ export default function LandingPageBody() {
       </div>
       <div className='inp'>
         <input type="text" placeholder='Email Address' className='pl-2' />
-       <Link to='/home'><button style={{ backgroundColor: 'rgb(229, 9, 20)' }} class="bg-custom-red-500 text-white rounded-md px-8 py-3.5 mr-14 font-semibold">Get Started </button> </Link> 
+       <Link to='/login'><button style={{ backgroundColor: 'rgb(229, 9, 20)' }} class="bg-custom-red-500 text-white rounded-md px-8 py-3.5 mr-14 font-semibold">Get Started </button> </Link> 
       </div>
       </div>
     </div>

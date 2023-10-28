@@ -3,7 +3,7 @@ import './Mainpage.css'
 export default function MainPageNav() {
     const [color, setColor] = useState('')
     const listenScrollEvent =()=>{
-        if(window.scrollY > 200){
+        if(window.scrollY > 50){
             setColor('rgba(0, 0, 0, 10)')
         }else{
             setColor('')
