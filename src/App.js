@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import LandingPageWrapper from './Components/landingpage/LandingPageWrapper';
 import MainPageWrapper from './Components/mainpage/MainpageWrapper';
-import SignUp from './Components/signup/SignUp';
+import SignUp from './Components/Signup/SignUp';
 import GptSearch from './Components/gpt/GptSearch';
 import Login from './Components/login/Login';
 function App() {

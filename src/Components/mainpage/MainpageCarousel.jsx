@@ -18,7 +18,7 @@ export default function MainpageCarousel(props) {
     <div className="container2 overflow-x-scroll overflow-y-hidden z-0">
         <div className='flex'>
           {movie.map((obj)=>(
-            <img className={props.isSmall ? 'smallPoster' : 'poster' }  src={`${imgUrl + obj.poster_path}`} alt="" ></img>
+            <img className={props.isSmall ? 'smallPoster' : 'poster' } loading='lazy' src={`${imgUrl + obj.poster_path}`} alt="" ></img>
           ))}
         </div>
     </div>

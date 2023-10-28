@@ -43,9 +43,10 @@ export default function MainPageNav() {
         <a href="/" class="noti">Home</a>
         <a href="/" class="noti">TVShows</a>
         <a href="/" class="noti">Movies</a>
-        <a href="/" class="noti">Series</a>
+        <a href="/search" class="noti">Search</a>
       </div>
-      <div className='profile hidden sm:flex justify-end w-full'>
+      <div className='profile hidden sm:flex justify-end align-middle content-center w-full'>
+      <button className="p-4 mr-4 bg-red-700 w-24 rounded-md h-11 flex align-middle justify-center content-center "  >Sign Out</button>
         <img  src="https://i.pinimg.com/originals/0d/dc/ca/0ddccae723d85a703b798a5e682c23c1.png" alt="" />
       </div>
     </nav>
