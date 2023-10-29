@@ -5,13 +5,13 @@ export default function GptSearchBar() {
   const [query, setQuery] = useState('');
   const handleClick = async () =>{
     const gptQuery =
-      "Act as a Movie Recommendation system and suggest some movies for the query : " +
-      query +
-      ". only give me names of 5 movies, comma seperated like the example result given ahead. Example Result: Gadar, Sholay, Don, Golmaal, Koi Mil Gaya";
-        const gptResults = await openai.Chat.ChatCompletionCreateParams({
-            messages: [{ role: 'user', content: gptQuery }],
-            model: 'gpt-3.5-turbo',
-          })
+    "Act as a Movie Recommendation system and suggest some movies for the query : " +
+    query +
+    ". only give me names of 5 movies, comma seperated like the example result given ahead. Example Result: Gadar, Sholay, Don, Golmaal, Koi Mil Gaya";
+      const gptResults = await openai.chat.completions.create({
+          messages: [{ role: 'user', content: gptQuery }],
+          model: 'gpt-3.5-turbo',
+        })
           console.log(gptResults);
   }
 

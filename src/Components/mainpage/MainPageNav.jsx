@@ -1,6 +1,11 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import './Mainpage.css'
+import { firebaseContext } from '../../store/FirebaseContext'
+import { useNavigate } from 'react-router-dom'
+
+
 export default function MainPageNav() {
+  const {firebase } = useContext(firebaseContext)
     const [color, setColor] = useState('')
     const listenScrollEvent =()=>{
         if(window.scrollY > 50){
@@ -12,6 +17,16 @@ export default function MainPageNav() {
     useEffect(()=>{
         window.addEventListener('scroll', listenScrollEvent)
     })
+    const auth = firebase.getAuth()
+    const navigate = useNavigate()
+    const handleLogOut = () =>{
+      firebase.signOut(auth).then(()=>{
+        navigate('/')
+      })
+      .catch((err)=>{
+        console.log(err);
+      })
+    }
   return (
     <div className='container1' style={{backgroundColor:color}}>
   <div class="container mx-auto z-50">
@@ -46,7 +61,7 @@ export default function MainPageNav() {
         <a href="/search" class="noti">Search</a>
       </div>
       <div className='profile hidden sm:flex justify-end align-middle content-center w-full'>
-      <button className="p-4 mr-4 bg-red-700 w-24 rounded-md h-11 flex align-middle justify-center content-center "  >Sign Out</button>
+      <button onClick={handleLogOut} className="p-4 mr-4 bg-red-700 w-24 rounded-md h-11 flex align-middle justify-center content-center "  >Sign Out</button>
         <img  src="https://i.pinimg.com/originals/0d/dc/ca/0ddccae723d85a703b798a5e682c23c1.png" alt="" />
       </div>
     </nav>
