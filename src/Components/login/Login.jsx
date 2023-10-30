@@ -42,6 +42,7 @@ export default function Login() {
             <input type="password" className="p-4 my-4 w-full bg-gray-700 rounded-md border-none focus:border border-blue-700" name='password' value={value.password}  placeholder="Password" onChange={handleChange} />
             <p className="text-red-500 font-bold text-lg py-2"></p>
             <button className="p-4 my-6 bg-red-700 w-full rounded-md" onClick={handleClick} >Sign In</button>
+            <a href="/signup">Sign Up</a>
             <p className="p-4 text-red-500" >{error ? error : ''}</p>
         </form>
         </div>
