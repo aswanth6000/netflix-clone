@@ -61,7 +61,7 @@ export default function MainPageNav() {
         <a href="/search" class="noti">Search</a>
       </div>
       <div className='profile hidden sm:flex justify-end align-middle content-center w-full'>
-      <button onClick={handleLogOut} className="p-4 mr-4 bg-red-700 w-24 rounded-md h-11 flex align-middle justify-center content-center "  >Sign Out</button>
+      <button onClick={handleLogOut} style={{ backgroundColor: 'rgb(229, 9, 20)' }} class="bg-custom-red-500 text-white rounded-md px-5 py-1.5 mr-14 font-semibold">Sign Out</button>
         <img  src="https://i.pinimg.com/originals/0d/dc/ca/0ddccae723d85a703b798a5e682c23c1.png" alt="" />
       </div>
     </nav>

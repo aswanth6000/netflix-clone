@@ -7,7 +7,7 @@ export default function LandingPageBody() {
       <div class="h-screen max-h-full">
     <div class= "flex justify-between items-center">
     <img src="https://res.cloudinary.com/dihrwghx2/image/upload/v1698213282/netflix/d1auoakl5foipexqnytg.png"  class="h-20" alt="" />
-      <button style={{ backgroundColor: 'rgb(229, 9, 20)' }} class="bg-custom-red-500 text-white rounded-md px-5 py-1.5 mr-14 font-semibold">Sign In</button>
+    <Link to='/login'><button style={{ backgroundColor: 'rgb(229, 9, 20)' }} class="bg-custom-red-500 text-white rounded-md px-5 py-1.5 mr-14 font-semibold">Sign In</button></Link>
     </div>
       <div class="flex justify-center flex-col mt-14 sm:mt-12 md:mt-24 lg:mt-56">
         <div class="m-0 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold sm:font-semibold md:font-extrabold lg:font-black text-white">Laughter. Tears. Thrills. Find it all on Netflix.</div>
